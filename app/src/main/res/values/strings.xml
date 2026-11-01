@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Excess Baggage Estimator</string>
+
+    <!-- Your GitHub repository URL -->
+    <string name="app_url">https://github.com/ammrsfddn/ExcessBaggageEstimator</string>
+
+    <!-- Main screen -->
+    <string name="instructions_title">How to use</string>
+    <string name="instructions_body">1. Enter the weight of your checked baggage.\n2. Choose your ticket class.\n3. Enter the excess baggage rate per kg.\n4. Tap CALCULATE to see your charge.</string>
+
+    <string name="hint_weight">Baggage weight</string>
+    <string name="helper_weight">Checked baggage weight in kilograms</string>
+    <string name="suffix_kg">kg</string>
+
+    <string name="label_ticket_class">Ticket class</string>
+    <string name="class_economy">Economy</string>
+    <string name="class_business">Business</string>
+    <string name="allowance_note">Free allowance for this class: %1$d kg</string>
+    <string name="notice_over">%1$.1f kg over the %2$d kg free allowance</string>
+    <string name="notice_ok">%1$d kg free allowance (%2$.1f kg remaining)</string>
+
+    <string name="hint_rate">Excess rate per kg</string>
+    <string name="helper_rate">Charge for every extra kilogram</string>
+    <string name="prefix_rm">RM </string>
+
+    <string name="btn_calculate">Calculate</string>
+    <string name="btn_reset">Reset</string>
+
+    <!-- Results -->
+    <string name="result_title">Your estimate</string>
+    <string name="label_excess_weight">Excess baggage weight</string>
+    <string name="label_excess_charge">Excess baggage charge</string>
+    <string name="label_total_payable">Total amount payable</string>
+    <string name="value_kg">%1$.2f kg</string>
+    <string name="value_rm">RM %1$.2f</string>
+    <string name="formula_charge">%1$.2f kg × RM %2$.2f per kg</string>
+
+    <!-- This one is filled with a number by the app, so it KEEPS the double %% -->
+    <string name="tax_note">Includes 8%% service tax: RM %1$.2f</string>
+
+    <!-- FIXED: shown as plain text, so a single % and formatted="false" -->
+    <string name="result_notice" formatted="false">Estimate only. An 8% service tax is assumed. Weight at or below the free allowance gives 0 kg excess.</string>
+
+    <!-- Error / helpful messages -->
+    <string name="error_weight_empty">Please enter the baggage weight</string>
+    <string name="error_weight_invalid">Enter a valid weight greater than 0</string>
+    <string name="error_weight_too_high">Weight cannot exceed %1$d kg</string>
+    <string name="error_rate_empty">Please enter the rate per kg</string>
+    <string name="error_rate_invalid">Enter a valid rate greater than 0</string>
+    <string name="msg_fix_errors">Please fix the highlighted fields</string>
+    <string name="msg_no_excess">No excess weight! Within the %1$d kg free allowance.</string>
+
+    <!-- Toolbar menu / share -->
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+    <string name="share_chooser_title">Share this app via</string>
+    <string name="share_message">Check out %1$s! Estimate your excess baggage fee here: %2$s</string>
+
+    <!-- About page -->
+    <string name="about_title">About</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_tagline">Estimate your excess baggage fee before you fly.</string>
+
+    <string name="about_dev_title">Developer details</string>
+    <string name="label_name">Name</string>
+    <string name="label_student_no">Student number</string>
+    <string name="label_group">Group</string>
+    <string name="label_programme">Programme code</string>
+    <string name="dev_name">MUHAMMAD AMMAR BIN SAIFUDDIN</string>
+    <string name="dev_student_no">2024694484</string>
+    <string name="dev_group">CDCS2405A</string>
+    <string name="dev_programme">ICT602</string>
+
+    <string name="about_info_title">Application information</string>
+    <string name="about_info_body">Course: ICT602 Mobile Technology (CLO2)\nPurpose: calculates the excess baggage weight, the excess baggage charge and the total amount payable (including 8%% service tax) for economy and business class tickets.</string>
+
+    <string name="about_website_title">Application website</string>
+    <string name="about_copyright">© 2026 Muhammad Ammar bin Saifuddin. All rights reserved.\nDeveloped for educational purposes (ICT602 Assignment).</string>
+</resources>
